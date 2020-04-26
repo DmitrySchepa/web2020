@@ -58,3 +58,12 @@ console.log(increment++ > 10); // false "10=10"
 
 // _______________5TH LESSON(GIT)_______________ 
 
+// 1. git init
+// 2. git config
+// working directory - index - remote(commit)
+// 3. git checkout -- <file> сбрасывает(discard) изменения
+// 4. git log показывает коммиты 
+// 5. git add <file> - создаёт файл
+
+
+
