@@ -29,3 +29,37 @@ for (let i=0; i<2; i+=1) {
 appData.moneyPerDay = appData.budget / 30;
 
 alert("Бюджет на день составляет " + appData.moneyPerDay + " руб");
+
+
+// _______________2ND TASK_______________ 
+
+// let i = 0;
+// while (i<2) {
+//     let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
+//         b = prompt("Во сколько обойдется?", "");
+    
+//     if (a != null && b != null & a != "" && b != "" && typeof(a) === 'string') {
+//         console.log('good result');
+//         appData.expences[a] = b;        
+//     } else {
+//         console.log('bad result');
+//         i-=1;
+//     }
+//     i += 1;
+// }
+
+
+// let i = 0;
+// do {
+//     let a = prompt("Введите обязательную статью расходов в этом месяце", ""),
+//         b = prompt("Во сколько обойдется?", "");
+    
+//     if (a != null && b != null & a != "" && b != "" && typeof(a) === 'string') {
+//         console.log('good result');
+//         appData.expences[a] = b;       
+//     } else {
+//         console.log('bad result');
+//         i-=1;
+//     }
+//     i += 1;
+// } while(i < 2);

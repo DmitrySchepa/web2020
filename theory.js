@@ -70,4 +70,23 @@ console.log(increment++ > 10); // false "10=10"
 // wq! -> Enter
 
 
+// _______________6TH LESSON()_______________ 
+
+let num = 50;
+
+switch (num) {
+    case num < 49:
+        console.log('Not enough!');
+        break;
+    case num > 100: 
+        console.log('Too much!');
+        break;
+    case 50:    /*!NOT case num == 50!!! */
+        console.log('What`s wright!');
+        break;
+    default: 
+        console.log('Something is wrong!');
+        break;
+}
+
 
