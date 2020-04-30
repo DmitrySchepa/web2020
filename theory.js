@@ -89,4 +89,51 @@ switch (num) {
         break;
 }
 
+// _______________7TH LESSON(FUNCTIONS)_______________ 
 
+// Замыкание - функция со всеми внешними переменными, которые ей доступны.
+
+
+// _______________8TH LESSON(FUNCTIONS)_______________
+
+let options = {
+    width: 1024,
+    height: 768,
+    name: "test"
+};
+
+// Работа с ключами объекта
+console.log(Object.keys(options).length);
+
+// _______________9TH LESSON(OBJECT ORIENTED PROGRAMMING)_______________
+
+let soldier = {
+    health: 400,
+    armor: 100
+};
+
+let John = {
+    health: 100
+};
+
+John.__proto__ = soldier;
+
+console.log(John);
+console.log(John.armor);
+
+// _______________10TH LESSON(CONSTRUCTOR)_______________
+
+// создание 
+
+function User(name) {
+    this.name = name,
+    this.sayHi = function() {
+        console.log('Привет, меня зовут ' + this.name);
+    };
+} 
+
+// вызов 
+
+let dima = new User('Dima');
+
+dima.sayHi();
